@@ -300,11 +300,13 @@ public class BluetoothTuner extends Activity {
     	sendMessage("-");
     }  
     
-    public void handleScanTuning (View v) {
+    public void handleScanTuning30 (View v) {
     	sendMessage("S");
     }  
 
-    
+    public void handleScanTuning20 (View v) {
+    	sendMessage("s");
+    }     
     
     
 }

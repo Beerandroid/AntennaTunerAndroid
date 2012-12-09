@@ -62,15 +62,15 @@
         android:layout_y="318dp"
         android:onClick="handleMaxTuning"
         android:text="MAX" />
-
-    <Button
+  
+     <Button
         android:id="@+id/button4"
-        android:layout_width="292dp"
+        android:layout_width="143dp"
         android:layout_height="wrap_content"
         android:layout_x="12dp"
         android:layout_y="251dp"
-        android:onClick="handleScanTuning"
-        android:text="Scan" />
+        android:onClick="handleScanTuning30"
+        android:text="Scan 30+" />   
 
     <Button
         android:id="@+id/fastLeftTuning"
@@ -171,5 +171,14 @@
         android:layout_y="318dp"
         android:onClick="handleMinTuning"
         android:text="MIN" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_x="161dp"
+        android:layout_y="249dp"
+        android:onClick="handleScanTuning20"
+        android:text="Scan 20-" />
 
 </AbsoluteLayout>
